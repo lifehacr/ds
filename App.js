@@ -3,7 +3,7 @@ import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
 import CheckoutForm from './CheckoutForm';
 
-const stripePromise = loadStripe('your-stripe-publishable-key'); // Replace with your Stripe Publishable Key
+const stripePromise = loadStripe('pk_live_rfx8lvbMH0TxKQDarhoyDVr700PJDVpCl4'); // Replace with your Stripe Publishable Key
 
 function App() {
   const [domains, setDomains] = useState([]);
